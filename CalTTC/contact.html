@@ -20,32 +20,37 @@ permalink: /contact/
 <section id="contact-form">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+      <div class="block">
+        <form action="https://formspree.io/xqkylnae" method="POST">
+          <div class="col-md-6 col-sm-12">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" class="form-control" placeholder="Subject">
+              </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+                <div class="form-group-2">
+                  <textarea class="form-control" name = "message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button class="btn btn-default" type="submit">Send Message</button>
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </div>
+
+      <br>
+      <h4> <strong>Note:</strong> Please provide a valid email for a response </h4>
+      <br>
+      <br>
+
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
