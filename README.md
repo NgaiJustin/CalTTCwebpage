@@ -15,6 +15,13 @@ ssh calttc@ssh.ocf.berkeley.edu
 ```
 Then, you can go into the website folder.
 ```
-cd 
+cd ~/jekyll/CalTTC
 ```
-Follow the OCF instructions [here](https://www.ocf.berkeley.edu/docs/services/web/jekyll/) to deploy the site
+Pull from the GitHub repo to get new changes.
+```
+git pull
+```
+And lastly, deploy new changes to the webpage
+```
+bundle exec jekyll build -d ~/public_html
+```
