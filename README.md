@@ -9,7 +9,7 @@ In the site directory there is a subdirectory named `_post`. Adding new Markdown
 The name, position, bio and image of the board page are editable in the `board.html`. To update the image simply upload the new images to `_img` and refer to the images appropiately in the `board.html`. Be sure to deploy the site again after the edits.
 
 ## Depolyoing the website
-In order to deploy the site, first `ssh` into the OCF server
+In order to deploy the site, first `ssh` into the OCF server. If you don't know the password, ask Jay Monga (jaymonga16@berkeley.edu).
 ```
 ssh calttc@ssh.ocf.berkeley.edu
 ```
